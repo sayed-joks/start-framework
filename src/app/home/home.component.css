@@ -1,0 +1,12 @@
+section{
+    min-height: 100vh;
+    background: #1ABC9C;
+}
+.inner h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+.inner img{
+    width: 300px;
+}

@@ -1,0 +1,17 @@
+
+.layer{
+    width: 94%;
+    height: 100%;
+    background-color: rgba(41, 177, 152, 0.9);
+    top: 0;
+    transform: translateX(3%);
+    transition: all .5s;
+    opacity: 0;
+}
+.layer i{
+    font-size: 100px;
+    color: #fff;
+}
+.layer:hover{
+    opacity: 1;
+}

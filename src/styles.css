@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+.star-dec::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    height: 5px;
+    width: 8%;
+    top: 45%;
+    right:40%;
+}
+.star-dec::before {
+    content: '';
+    position: absolute;
+    background: #fff;
+    height: 5px;
+    width: 8%;
+    top: 45%;
+    left: 40%;
+}
+.star-dec i {
+    margin: 0 100px;
+}
+.star-portfolio::after {
+    content: '';
+    position: absolute;
+    background: #2C3E50;
+    height: 5px;
+    width: 8%;
+    top: 45%;
+    right: 40%;
+}
+.star-portfolio::before {
+    content: '';
+    position: absolute;
+    background: #2C3E50;
+    height: 5px;
+    width: 8%;
+    top: 45%;
+    left: 40%;
+}
+.title h1{
+    font-weight: 700;
+}
+.premium-color{
+    color: #2C3E50;
+}
+@media (max-width: 575.98px) { 
+.star-dec::before{
+    left: 12%;
+    width: 30%;
+}
+.star-dec::after{
+    right: 12%;
+    width: 30%;
+}
+.star-portfolio::after{
+    right: 12%;
+    width: 30%;
+}
+.star-portfolio::before{
+        left: 12%;
+    width: 30%; 
+}
+}
