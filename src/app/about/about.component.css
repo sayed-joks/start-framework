@@ -5,3 +5,10 @@
 .title h1{
     font-weight: 700;
 }
+.caption p{
+    font-weight: 700;
+
+}
+.container{
+  width: 85%
+}

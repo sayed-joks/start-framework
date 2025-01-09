@@ -13,3 +13,24 @@ button:active{
     color: #fff;
     transform: scale(.9);
 }
+input{
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #d2d2d2;
+    border-radius: none;
+    padding: 0 0 5px 0;
+}
+input:focus{
+    outline: none;
+}
+label{
+    position: relative;
+    pointer-events: none;
+    top: 35px;
+}
+.container{
+    width: 50%;
+}
+input::placeholder{
+    color: #d2d2d2;
+}

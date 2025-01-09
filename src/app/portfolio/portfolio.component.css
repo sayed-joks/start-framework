@@ -1,12 +1,13 @@
 
 .layer{
-    width: 94%;
+    width: 100%;
     height: 100%;
     background-color: rgba(41, 177, 152, 0.9);
     top: 0;
-    transform: translateX(3%);
     transition: all .5s;
     opacity: 0;
+    left: 2.5%;
+    cursor: pointer;
 }
 .layer i{
     font-size: 100px;
@@ -14,4 +15,44 @@
 }
 .layer:hover{
     opacity: 1;
+}
+img{
+    cursor: pointer;
+}
+.light-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light-container .light {
+    width: 70%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    border-radius: 20px;
+}
+.light i {
+    color: #fff;
+    cursor: pointer;
+    font-size: 50px;
+    margin: 15px;
+}
+.light #close{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+@media (min-width: 992px) {
+    .layer{
+        left:3.5%;
+    }
 }
