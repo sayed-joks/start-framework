@@ -8,7 +8,7 @@ nav {
     text-transform: uppercase;
 }
 .navbar-brand{
-    font-size: 32px;
+    font-size: 20px;
     counter-reset: #fff;
     font-weight: 700;
     text-transform: uppercase;
@@ -16,4 +16,9 @@ nav {
 .active-link{
     background: #1ABC9C;
     border-radius: 5px;
+}
+@media (min-width: 992px){
+  .navbar-brand{
+    font-size: 32px
+  }
 }
